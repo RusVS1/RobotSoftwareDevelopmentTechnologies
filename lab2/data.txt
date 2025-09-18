@@ -1,7 +1,7 @@
-apple 12 56.59
-pineapple 3 99.99
-cucumber 7 109.99
-pineapple 3 99.99
-peach 26 220
-melon 4 89.9
-pumpkin 1 339
+apple 120 56.59
+pineapple 30 99.99
+cucumber 100 109.99
+pineapple 30 99.99
+peach 260 220
+melon 40 89.9
+pumpkin 1000 339
