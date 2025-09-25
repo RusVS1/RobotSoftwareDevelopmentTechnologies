@@ -22,7 +22,6 @@ with open("message.json", "r", encoding="utf-8") as f:
 name = message_data["name"]
 task = message_data["task"]
 
-
 html = f"""\
 <html>
   <head></head>
@@ -34,7 +33,6 @@ html = f"""\
 """
 
 message.attach(MIMEText(html, "html", "utf-8"))
-
 server = smtplib.SMTP("smtp.mail.ru", 587)
 server.starttls() 
 server.login(sender_email, sender_password)
